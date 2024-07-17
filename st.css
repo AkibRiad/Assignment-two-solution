@@ -35,6 +35,11 @@ body{
     justify-content: space-between;
     align-items: center;
   }
+  .navbar h2{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800 ;
+  }
   .nav-items{
     width: 40%;
     box-sizing: border-box;
@@ -51,6 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.3rem;
     
   }
   .navbar ul li a{
@@ -61,4 +67,14 @@ body{
     border-radius: 35%;
   }
   /* navbar style end */
+
+
+
+  /* media query  */
+   @media screen and (max-width: 576px) {
+    .nav-items{
+        display: none;
+        
+    }
+   }
   
