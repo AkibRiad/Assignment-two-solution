@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+
+
+  /* shared style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 70%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-repeat: no-repeat;
+    margin: 5% auto;
+}
+
+#komla{
+    background: rgb(230, 83, 60);;
+}
+  /* shared style  */
+
+  /* navbar style start */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items{
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+  }
+  .navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .navbar ul li a{
+    text-decoration: none;
+  }
+  #komla{
+    padding: 10%;
+    border-radius: 35%;
+  }
+  /* navbar style end */
+  
