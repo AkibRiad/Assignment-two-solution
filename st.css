@@ -19,8 +19,8 @@
     padding: 0;
 }
 body{
-    width: 70%;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    width: 80%;
+    background-color:rgb(17, 17, 17);
     background-repeat: no-repeat;
     margin: 5% auto;
 }
@@ -94,7 +94,7 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-  /* header body end */
+  
   .header-body{
     display: flex;
     justify-content: space-between;
@@ -114,8 +114,9 @@ body{
   .head-content .header-btn{
     border-radius: 42%;
     padding: 16px 40px 16px 40px;
-    margin-top: 5%;
+    margin-top: 8%;
     border: none;
+    margin-left: 4%;
   }
   .head-img{
     margin-top: 2%;
@@ -134,7 +135,15 @@ body{
     border: none;
     background: rgb(230, 83, 60);
     margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .circle #play-btn{
+    color: white;
+    visibility: hidden;
+  }
+
   .three{
     width: 206px;
     height: 96px;
@@ -166,6 +175,53 @@ body{
     align-items: center;
     margin-top: 30%;
   }
+  /* header body end */
+
+  /* habit section start  */
+ 
+  
+  .habit-content{
+    text-align: center;
+  }
+  .habit-content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+  }
+  .habit-content p{
+    margin-top: 2%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .habit-img-container{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+  .habit-img-container img{
+    border-radius: 50%;
+    border:2px dotted white;
+  }
+  .img-description{
+    text-align: center;
+    
+  }
+  .img-description h5{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+   margin-top: 5%;
+  }
+  .habit-part .img-description p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5%;
+  } 
+  /* habit section end */
   
   /* media query  */
    @media screen and (max-width: 576px) {
@@ -189,5 +245,28 @@ body{
       width: 100%;
       margin-top: 20px;
     }
+    .circle #play-btn{
+      visibility: visible;
+    }
+    .habit-img-container{
+      flex-direction: column;
+    }
+    .habit-img-container p{
+      margin-bottom: 10px;
+    }
+    .habit-content h1{
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+   }
+
+   @media screen and (min-width:992px) {
+    .head-content .btn-div{
+      display: flex;
+    }
+    .head-img{
+      height: 700px;
+    }
+    
    }
   
