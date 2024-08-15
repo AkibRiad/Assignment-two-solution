@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
 
 
-.inter-font {
+.inter-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -222,6 +222,47 @@ body{
     margin-top: 5%;
   } 
   /* habit section end */
+
+  /* running part start */
+  .running-part{
+    margin-top: 80px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+  }
+  .running-content{
+    margin: 2%;
+    width: 40%;
+  }
+  .running-part h2{
+    font-size: 3rem;
+    color: white;
+  }
+  .running-part p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+  }
+  .running-content button{
+    width: 40%;
+    height: 50px;
+    border-radius: 30%;
+    border: none;
+    color: white;
+  }
+  .running-img{
+    margin:2%;
+    width: 40%;
+    border-radius: 5%;
+    background-image: url(images/run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  /* running part END */
   
   /* media query  */
    @media screen and (max-width: 576px) {
@@ -257,6 +298,25 @@ body{
     .habit-content h1{
       font-size: 1.5rem;
       margin-top: 10px;
+    }
+    
+    .running-part{
+      flex-direction: column;
+    }
+    .running-content{
+      width: 100%;
+    }
+    .running-img{
+      margin-top: 5%;
+      height: 500px;
+      width: 300px;
+    }
+    .running-content button{
+      margin-top: 3%;
+      width: 90%; 
+    }
+    .running-part p{
+      font-size: 0.8rem;
     }
    }
 
