@@ -536,11 +536,19 @@ padding: 2%;
     .running-part p{
       font-size: 0.8rem;
     }
-   
+    .table-form{
+      flex-direction: column;
+    }
+    .table-form .select1{
+      margin-top: 3%;
+    }
+    .table-form .select2{
+      width: 250px;
+    }
     .team-pictures{
       grid-template-columns: repeat(1,1FR);
-      gap: 0.2%;
-      height: 2000px;
+      gap: 0.4%;
+      height: 2200px;
     }
     .footer-content{
       flex-direction: column;
