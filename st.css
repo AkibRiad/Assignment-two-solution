@@ -264,6 +264,99 @@ body{
   }
   /* running part END */
 
+/* team part start  */
+.team-div{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.team-caption h1{
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.team-caption p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.team-pictures{
+  border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin-top: 5%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 2%;
+padding: 2%;
+}
+.team-pictures .img-div{
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+.trainer-one{
+  background: rgba(0, 0, 0, 0.2);
+  background-image:url(images/trainer1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  
+}
+.trainer-two{
+  background: rgba(0, 0, 0, 0.2);
+  background-image:url(images/trainer2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.trainer-three{
+  background: rgba(0, 0, 0, 0.2);
+  background-image: url(images/trainer3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.trainer-four{
+  background: rgba(0, 0, 0, 0.2);
+  background-image: url(images/trainer4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.trainer-five{
+  background: rgba(0, 0, 0, 0.2);
+  background-image: url(images/trainer5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.trainer-six{
+  background: rgba(0, 0, 0, 0.2);
+  background-image: url(images/trainer6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.img-div h4{
+  margin-top: 87%;
+  color: white;
+}
+.img-div p{
+  color: rgba(255, 255, 255, 0.5);
+}
+.img-div p,h4{
+  margin-left: 4%;
+}
+/* team part end */
+
+
   /* footer part :start */
   .footer-part{
     margin-top: 6%;
@@ -351,6 +444,12 @@ body{
     }
     .running-part p{
       font-size: 0.8rem;
+    }
+   
+    .team-pictures{
+      grid-template-columns: repeat(1,1FR);
+      gap: 0.2%;
+      height: 2000px;
     }
     .footer-content{
       flex-direction: column;
