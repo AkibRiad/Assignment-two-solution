@@ -195,6 +195,12 @@ body{
   .gym-desk img{
     margin-top: 3%;
     width: 100%;
+    margin-bottom: 2%;
+  }
+  .gym-desk h5{
+    color: white;
+    text-align: center;
+    font-weight: 700;
     margin-bottom: 5%;
   }
   /* desk section end */
