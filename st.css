@@ -568,11 +568,15 @@ padding: 2%;
     .table-form{
       flex-direction: column;
     }
+    .table-form input{
+      width: 120px;
+    }
     .table-form .select1{
       margin-top: 3%;
+      width: 126.09px;
     }
     .table-form .select2{
-      width: 250px;
+      width: 257px;
     }
     .team-pictures{
       grid-template-columns: repeat(1,1FR);
