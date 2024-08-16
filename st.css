@@ -83,7 +83,7 @@ body{
   }
   .komla{
     padding: 10%;
-    border-radius: 35%;
+    border-radius: 35px;
   }
   /* navbar style end */
 
@@ -248,7 +248,7 @@ body{
   .running-content button{
     width: 40%;
     height: 50px;
-    border-radius: 30%;
+    border-radius: 30px;
     border: none;
     color: white;
   }
@@ -263,6 +263,97 @@ body{
     
   }
   /* running part END */
+
+  /* bmi part :start */
+  .bmi-div{
+    margin-top: 5%;
+  }
+  .bmi-caption h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .bmi-caption p{
+    margin-top: 1%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .table-form{
+    background:  rgb(34, 34, 34);
+    padding: 5%;
+    margin-top: 5%;
+  }
+  .table-div h3{
+    color: white;
+    margin-bottom: 4%;
+    font-size: 1rem;
+  }
+  .table-div thead td{
+    color: white;
+    padding: 2%;
+  }
+  .table-div tbody td{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2%;
+  }
+  .table-div td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .table-div table{
+    border-collapse:collapse ;
+  }
+
+  .table-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .table-form p{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .bmi-div h3,h4{
+    margin-bottom: 4%;
+    font-size: 2rem;
+    color: white;
+  }
+  .table-form input{
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+  }
+  .table-form .select1{
+    width: 177.72px;
+    padding: 1%;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+color: rgba(255, 255, 255, 0.6);
+  }
+  .table-form .select2{
+    padding: 1%;
+    width: 360px;
+    margin-top: 3%;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+color: rgba(255, 255, 255, 0.6);
+  }
+  ::placeholder{
+   color: rgba(255, 255, 255, 0.6);
+  }
+  .table-form button{
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+color: white;
+width: 130px;
+height: 30px;
+margin-top: 5%;
+border: none;
+  }
+  /* bmi part :end */
 
 /* team part start  */
 .team-div{
